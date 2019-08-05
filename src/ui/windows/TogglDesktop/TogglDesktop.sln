@@ -145,6 +145,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XML", "..\..\..\..\third_pa
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TogglDesktopDLL.Tests", "..\..\..\lib\windows\TogglDesktopDLL.Tests\TogglDesktopDLL.Tests.vcxproj", "{1082CCF1-3D77-4E95-9B51-9262A6FFF766}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3ACE25DD-04CE-47D8-9658-3D0546521DA2} = {3ACE25DD-04CE-47D8-9658-3D0546521DA2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
