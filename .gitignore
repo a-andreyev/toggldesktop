@@ -92,12 +92,12 @@ src/ui/windows/TogglDesktop/TogglDesktop/bin
 src/ui/windows/TogglDesktop/Release
 src/ui/windows/TogglDesktop/x64/Release
 src/ui/windows/TogglDesktop/TogglDesktopUpdater/bin
-src/lib/windows/TogglDesktopDLL/Debug
-src/lib/windows/TogglDesktopDLL/Release_VS
-src/lib/windows/TogglDesktopDLL/Release
-src/lib/windows/TogglDesktopDLL/x64/Debug
-src/lib/windows/TogglDesktopDLL/x64/Release_VS
-src/lib/windows/TogglDesktopDLL/x64/Release
+src/lib/windows/*/Debug
+src/lib/windows/*/Release_VS
+src/lib/windows/*/Release
+src/lib/windows/*/x64/Debug
+src/lib/windows/*/x64/Release_VS
+src/lib/windows/*/x64/Release
 
 *.dSYM
 
