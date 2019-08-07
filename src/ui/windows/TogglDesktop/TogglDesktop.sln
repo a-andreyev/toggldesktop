@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TogglDesktop", "TogglDesktop\TogglDesktop.csproj", "{27AC6261-3916-4683-B692-DC57E2FE0ABD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3ACE25DD-04CE-47D8-9658-3D0546521DA2} = {3ACE25DD-04CE-47D8-9658-3D0546521DA2}
-		{013C6551-E2AA-4960-96DA-214CC8895E17} = {013C6551-E2AA-4960-96DA-214CC8895E17}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TogglDesktopDLL", "..\..\..\lib\windows\TogglDesktopDLL\TogglDesktopDLL.vcxproj", "{3ACE25DD-04CE-47D8-9658-3D0546521DA2}"
@@ -296,20 +295,6 @@ Global
 		{5B889CE7-AD42-4CFE-BBC3-532B61F8329E}.StoreRelease|x64.ActiveCfg = release_static_mt|Win32
 		{5B889CE7-AD42-4CFE-BBC3-532B61F8329E}.StoreRelease|x86.ActiveCfg = release_shared|Win32
 		{5B889CE7-AD42-4CFE-BBC3-532B61F8329E}.StoreRelease|x86.Build.0 = release_shared|Win32
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Debug|x64.ActiveCfg = Debug|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Debug|x64.Build.0 = Debug|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Debug|x86.ActiveCfg = Debug|x86
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Debug|x86.Build.0 = Debug|x86
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release_VS|x64.ActiveCfg = Release|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release_VS|x64.Build.0 = Release|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release_VS|x86.ActiveCfg = Release|x86
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release_VS|x86.Build.0 = Release|x86
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release|x64.ActiveCfg = Release|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release|x64.Build.0 = Release|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release|x86.ActiveCfg = Release|x86
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.Release|x86.Build.0 = Release|x86
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.StoreRelease|x64.ActiveCfg = Release|x64
-		{013C6551-E2AA-4960-96DA-214CC8895E17}.StoreRelease|x86.ActiveCfg = Release|x86
 		{85CA11FB-7793-4026-9998-C8EE9BDB36BF}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{85CA11FB-7793-4026-9998-C8EE9BDB36BF}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{85CA11FB-7793-4026-9998-C8EE9BDB36BF}.Release_VS|x64.ActiveCfg = Release|Any CPU
@@ -427,17 +412,9 @@ Global
 		{B8062AF7-2704-4228-A3C3-8FC505B93A45}.StoreRelease|x64.Build.0 = release_shared|x64
 		{B8062AF7-2704-4228-A3C3-8FC505B93A45}.StoreRelease|x86.ActiveCfg = debug_shared|x64
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Debug|x64.ActiveCfg = StoreRelease|x64
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Debug|x64.Build.0 = StoreRelease|x64
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Debug|x64.Deploy.0 = StoreRelease|x64
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Debug|x86.ActiveCfg = StoreRelease|x86
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Debug|x86.Build.0 = StoreRelease|x86
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Debug|x86.Deploy.0 = StoreRelease|x86
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release_VS|x64.ActiveCfg = StoreRelease|x64
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release_VS|x64.Build.0 = StoreRelease|x64
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release_VS|x64.Deploy.0 = StoreRelease|x64
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release_VS|x86.ActiveCfg = StoreRelease|x86
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release_VS|x86.Build.0 = StoreRelease|x86
-		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release_VS|x86.Deploy.0 = StoreRelease|x86
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release|x64.ActiveCfg = StoreRelease|x64
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.Release|x86.ActiveCfg = StoreRelease|x86
 		{BF2C1343-F7A6-448E-8B02-90E21340EC3C}.StoreRelease|x64.ActiveCfg = StoreRelease|x64
